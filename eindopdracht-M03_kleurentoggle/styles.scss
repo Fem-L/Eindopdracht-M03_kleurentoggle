@@ -1,0 +1,96 @@
+#body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+
+header {
+  margin-left: 1rem;
+}
+/* TOGGLE-MENU */
+
+#toggle-menu__btn {
+  height: 4rem;
+  border: none;
+  cursor: pointer;
+  & img {
+    height: 4rem;
+    &:hover {
+      opacity: 0.3;
+    }
+  }
+}
+
+/* MENU */
+
+.menu {
+  position: fixed;
+  left: -200px;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  &__btn {
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 5.5rem;
+    border: solid 2px black;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 0.5rem 2rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    & .radio {
+      cursor: pointer;
+    }
+    &:hover {
+      border: solid 2px white;
+      opacity: 0.8;
+    }
+  }
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+  left: 40px;
+  transition: all 900ms ease-in-out;
+}
+.cadetblue {
+  background-color: cadetblue;
+}
+
+.rood {
+  background-color: rgb(253, 90, 90);
+}
+
+.oranje {
+  background-color: rgb(252, 196, 93);
+}
+
+.geel {
+  background-color: rgb(255, 255, 111);
+}
+
+.groen {
+  background-color: rgb(105, 199, 105);
+}
+
+.blauw {
+  background-color: rgb(94, 201, 250);
+}
+
+.paars {
+  background-color: rgb(175, 120, 175);
+}
+
+/* TEKST NAAMKLEUR */
+#naam-kleur {
+  font-size: 5rem;
+  color: rgba(0, 0, 0, 0.233);
+  text-align: center;
+  margin-left: 6rem;
+}
