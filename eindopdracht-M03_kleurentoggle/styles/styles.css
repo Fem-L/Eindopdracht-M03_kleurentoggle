@@ -1,0 +1,105 @@
+#body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+
+header {
+  margin-left: 1rem;
+}
+
+/* TOGGLE-MENU */
+#toggle-menu__btn {
+  height: 4rem;
+  border: none;
+  cursor: pointer;
+}
+
+#toggle-menu__btn img {
+  height: 4rem;
+}
+
+#toggle-menu__btn img:hover {
+  opacity: 0.3;
+}
+
+/* MENU */
+.menu {
+  position: fixed;
+  left: -200px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu__btn {
+  color: black;
+  text-decoration: none;
+  display: block;
+  width: 5.5rem;
+  border: solid 2px black;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin: 0.5rem 2rem;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.menu__btn .radio {
+  cursor: pointer;
+}
+
+.menu__btn:hover {
+  border: solid 2px white;
+  opacity: 0.8;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+  left: 40px;
+  -webkit-transition: all 900ms ease-in-out;
+  transition: all 900ms ease-in-out;
+}
+
+.cadetblue {
+  background-color: cadetblue;
+}
+
+.rood {
+  background-color: #fd5a5a;
+}
+
+.oranje {
+  background-color: #fcc45d;
+}
+
+.geel {
+  background-color: #ffff6f;
+}
+
+.groen {
+  background-color: #69c769;
+}
+
+.blauw {
+  background-color: #5ec9fa;
+}
+
+.paars {
+  background-color: #af78af;
+}
+
+/* TEKST NAAMKLEUR */
+#naam-kleur {
+  font-size: 5rem;
+  color: rgba(0, 0, 0, 0.233);
+  text-align: center;
+  margin-left: 6rem;
+}
+/*# sourceMappingURL=styles.css.map */
